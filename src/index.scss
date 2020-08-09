@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+form {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.is-loading {
+  cursor: progress
+}
+
+.logout-btn {
+  margin-bottom: 30px;
+}
+
+.form-errors {
+  background-color: rgb(253, 223, 223);
+  border: 1px solid rgb(223, 70, 70);
+  color: rgb(223, 70, 70);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.form-errors_heading {
+  font-size: 15px;
+  margin: 0 0 5px 0;
+}
+
+.form-errors_list {
+  margin: 0
+}
